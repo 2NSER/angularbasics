@@ -38,8 +38,10 @@
 
             if (isNaN(newValue)) {
                 $scope.numberError = true;
+                console.log("number="+$scope.numberError);
             } else {
                 $scope.numberError = false;
+                console.log("number="+$scope.numberError);
             }
         });
     }]);
